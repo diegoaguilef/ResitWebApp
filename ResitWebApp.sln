@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7B14BF44-9DC4-46D5-8EAE-B8895952DAB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F5132E6-D8B2-4097-B7BF-4AA970533C3C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ResitWebApp", "src\ResitWebApp\ResitWebApp.xproj", "{4C9A7108-0E49-4557-8B58-5DAFFCAEA6E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C9A7108-0E49-4557-8B58-5DAFFCAEA6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9A7108-0E49-4557-8B58-5DAFFCAEA6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9A7108-0E49-4557-8B58-5DAFFCAEA6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9A7108-0E49-4557-8B58-5DAFFCAEA6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C9A7108-0E49-4557-8B58-5DAFFCAEA6E9} = {7B14BF44-9DC4-46D5-8EAE-B8895952DAB0}
+	EndGlobalSection
+EndGlobal
